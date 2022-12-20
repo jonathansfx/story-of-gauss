@@ -1,0 +1,44 @@
+html {
+  background: url("img/1to100.jpg");
+  background-size: cover;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  padding: 20px 75px;
+  margin: 20px auto;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  width: 100px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 15px;
+  background: royalblue;
+  color: white;
+  cursor: pointer;
+}
+
+.series,
+span {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+span {
+  font-size: 20px;
+}

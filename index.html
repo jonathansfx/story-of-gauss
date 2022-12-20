@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Story of Gauss</h1>
+  <p>
+    "I love the story of Carl Friedrich Gauss—who, as an elementary student in the late 1700s, amazed his teacher with
+    how quickly
+    he found the sum of the integers from 1 to 100 to be 5,050." <em>(Jane M. Wilburne)</em>
+  </p>
+  <p>
+    <img src="img/story-of-gauss.gif">
+  </p>
+
+  <h2>Calculate Sum of Integers 1 to n</h2>
+  <p class="series">1 + 2 + 3 + ... + (n-1) + n</p>
+  <p>
+    Enter a value for n: <input id="n-in" type="number">
+    <button id="calc-btn">Calculate Sum</button>
+  </p>
+  <p class="result">Sum of 1 to <span id='n-out'>?</span> is <span id="sum-out">---</span></p>
+
+  <!-- Load JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
